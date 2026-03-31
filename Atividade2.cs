@@ -7,9 +7,9 @@ public static class Atividade2
         string letra;
 
         Console.WriteLine("Digite a letra: ");
-        letra = Console.ReadLine()!;
+        letra = Console.ReadLine()!.ToLower();
 
-        if( (letra == "a") || (letra == "e") || (letra == "i") || (letra == "o") || (letra =="u"))
+        if ((letra == "a") || (letra == "e") || (letra == "i") || (letra == "o") || (letra == "u"))
         {
             Console.WriteLine("Vogal");
         }
